@@ -1,0 +1,61 @@
+*{
+    padding: 0; /* padding (margem interna), vai zerar a margem.*/
+    margin: 0; /* margin (margem externa), vai zerar a margem*/
+}
+
+#navegation{
+    width: 100%; /* define a largura da seção em 100% de largura*/
+    height: 120px; /* define a altura da seção em 80px de altura */
+    background-color: #2f4f4f;
+    color: #ffffff;
+}
+
+#navegation a{
+    color: #00f2ff;
+}
+
+#navegation ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#start{
+    width: 100%;
+    height: 500px;
+    background-color: #ff7f50;
+    text-align: left;
+}
+
+.homeInformations h1{
+    font-size: 50px;
+}
+
+#about{
+    width: 100%;
+    height: 500px;
+    background-color: #9c89ea;
+}
+
+#projects{
+    width: 100%;
+    height: 500px;
+    background-color: #210e6c;
+    color: #ffffff;
+}
+
+#contact{
+    width: 100%;
+    height: 500px;
+    background-color: #00f2ff;
+}
+
+#footer{
+    width: 100%;
+    height: 80px;
+    background-color: #514580;
+    text-align: left;
+}
+
+.socialMedias{
+    text-align: right;
+}
