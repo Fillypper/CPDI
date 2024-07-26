@@ -1,0 +1,138 @@
+*{
+    padding: 0; /* padding (margem interna), vai zerar a margem.*/
+    margin: 0; /* margin (margem externa), vai zerar a margem*/
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#navegation{
+    width: 100%;
+    padding: 20px;
+    background-color: #210e6c;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navegation h1{
+    margin-bottom: 0px;
+}
+
+#navegation a{
+    color: #00ffff;
+}
+
+#navegation li{
+    display: inline;
+}
+
+#home{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+#home img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border: red groove 20px;
+    border-radius: 10;
+    display: flex;
+    flex-direction: row;
+}
+
+.homeInformation > h1{
+    font-size: 50px;
+    font-family: fantasy;
+    color: #090152;
+}
+
+.homeInformation h2{
+    font-style: italic;
+    color: #dc143c;
+    margin-bottom: 10px;
+}
+
+.homeInformation p{
+    margin-bottom: 10px;
+}
+
+.homeInformation a{
+    font-size: 22px;
+    background-color: #330aeb;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+#about{
+    width: 100%;
+    background-color: #210e6c;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aboutResume h1, p{
+    margin-bottom: 10px;
+}
+
+.habilitiesAbout li{
+    display: inline-block;
+    background-color: #ffffff;
+    border: 2px solid #000000; /* cria borda, sempre informar cor, largura e tipo. Não importa a ordem. */
+    padding: 10px; /* espaçamento interno de cada habilidade */
+    margin-top: 20px; /* espaçamento entre as habilidades e o h2 de habilidades*/
+}
+
+#projects{
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+    display: inline-block /* melhor aproveitamento do bloco*/
+}
+
+#projects h1{
+    margin-left: 10px;
+}
+
+.project{
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+}
+
+#contact{
+    width: 100%;
+    background-color: #210e6c;
+    padding: 30px;
+}
+
+/* Exemplo de Border Box */
+
+.form{
+ margin-top: 10px;
+}
+
+
+
+#footer{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 30px;
+}
+
+#footer li{
+    display: inline-block;
+}
