@@ -1,0 +1,28 @@
+#start {
+    width: 100%;
+    height: 800px;
+    background-color: var(--backgroundColor);
+    color: var(--whiteColor);
+    padding-top: 150px;
+}
+
+.startApresentation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 150px;
+    gap: 50px;
+}
+
+
+.startApresentation span {
+    font-size: var(--headingFont);
+}
+
+.startApresentation h1 {
+    font-size: var(--titleFont);
+}
+
+.startApresentation p {
+    font-size: var(--detailsFont);
+}

@@ -1,0 +1,21 @@
+#navegation{
+    width: 100%;
+    height: 100px;
+    background-color: var(--darkPurple);
+    color: var(--whiteColor);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navegation ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navegation a{
+    color: var(--whiteColor);
+    font-size: var(--headingFont);
+    margin-right: 30px;
+}
