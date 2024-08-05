@@ -16,7 +16,7 @@
     gap: 30px;
 }
 
-.experiencesContainer>div {
+.experiencesContainer > div {
     width: 45%;
     height: 200px;
     background-color: var(--middlePurple);
@@ -28,4 +28,19 @@
     border-top: 5px solid var(--brightPurple);
     border-radius: 30px;
     background: linear-gradient(130deg, var(--darkPurple) 0%, var(--middlePurple) 50%, var(--brightPurple) 100%);
+}
+
+.experiencesContainer > div h2{
+    font-size: var(--subtitleFont);
+}
+
+.experiencesContainer > div a{
+    color: var(--whiteColor);
+    border: 2px solid var(--brightPurple);
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 20px ;
+
 }
