@@ -1,0 +1,31 @@
+#experiences {
+    background-color: var(--backgroundColor);
+    padding-bottom: 150px;
+    color: var(--whiteColor);
+}
+
+#experiences h1 {
+    font-size: var(--titleFont);
+    margin-bottom: 50px;
+}
+
+.experiencesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.experiencesContainer>div {
+    width: 45%;
+    height: 200px;
+    background-color: var(--middlePurple);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px; 
+    padding: 30px;
+    border-top: 5px solid var(--brightPurple);
+    border-radius: 30px;
+    background: linear-gradient(130deg, var(--darkPurple) 0%, var(--middlePurple) 50%, var(--brightPurple) 100%);
+}

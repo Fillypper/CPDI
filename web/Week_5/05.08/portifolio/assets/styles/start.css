@@ -1,0 +1,47 @@
+#start {
+    width: 100%;
+    height: 800px;
+    background-color: var(--backgroundColor);
+    color: var(--whiteColor);
+    padding-top: 150px;
+}
+
+.startApresentation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 150px;
+    gap: 50px;
+}
+
+
+.startApresentation span {
+    font-size: var(--headingFont);
+}
+
+.startApresentation h1 b {
+    color: var(--brightPurple);
+    border: 1px solid var(--whiteColor);
+    border-radius: 56% 44% 63% 37% / 47% 39% 61% 53%;
+    padding: 0px 20px;
+}
+
+.startApresentation p {
+    font-size: var(--detailsFont);
+}
+
+.startAbout h2 {
+    font-size: var(--titleFont);
+}
+
+.startAbout h3 {
+    font-size: var(--headingFont);
+    font-weight: 100;
+    /* O valor de 100 é o mesmo valor que o Lighter. */
+    margin-bottom: 50px;
+}
+
+.startAbout p {
+    font-size: var(--headingFont);
+    width: 75%;
+}
