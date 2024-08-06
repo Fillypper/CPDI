@@ -4,6 +4,7 @@
     background-color: var(--backgroundColor);
     color: var(--whiteColor);
     padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .startApresentation {

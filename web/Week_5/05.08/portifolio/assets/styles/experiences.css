@@ -2,6 +2,7 @@
     background-color: var(--backgroundColor);
     padding-bottom: 150px;
     color: var(--whiteColor);
+    padding-top: 150px;
 }
 
 #experiences h1 {

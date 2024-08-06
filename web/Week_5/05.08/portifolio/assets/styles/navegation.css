@@ -1,12 +1,13 @@
 #navegation{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: var(--darkPurple);
     color: var(--whiteColor);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
 }
 
 #navegation ul{
